@@ -1,0 +1,12 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.pt
+nest_backup.mp4
+node_modules/
+dist/
+.vercel/
+.DS_Store
+# The event handout: the organisers' document, not ours to publish.
+test.pdf

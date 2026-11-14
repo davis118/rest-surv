@@ -1,0 +1,9 @@
+.git
+.gitignore
+.venv
+frontend
+**/__pycache__
+*.pt
+*.pdf
+.DS_Store
+.env

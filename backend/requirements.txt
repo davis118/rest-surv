@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+opencv-python
+ultralytics
+lap
+insightface
+onnxruntime
+python-multipart
