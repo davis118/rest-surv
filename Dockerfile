@@ -16,7 +16,7 @@ WORKDIR /app
 
 # CPU-only PyTorch first, so the requirements below do not pull the much larger GPU build.
 COPY backend/requirements.txt backend/requirements.txt
-RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu \
+RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple \
     && pip install -r backend/requirements.txt
 
 # Bake the model weights into the image so a cold start does not download them.
